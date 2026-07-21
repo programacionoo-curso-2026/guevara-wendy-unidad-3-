@@ -2,16 +2,19 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"time"
 )
 
 func main() {
-	go ShowGoroutine(1)
-	time.Sleep(10 * time.Second)
+	go ShowGoroutines(1)
+	time.Sleep(1 * time.Second)
 
 }
 
-func ShowGoroutine(id int) {
-	fmt.Print("Goroutine #%d\n", id)
+func ShowGoroutines(id int) {
+	delay := rand.Intn(500)
+	fmt.Printf("Goroutine #%d\n with %dms\n", id, delay)
+	time.Sleep(time.Millisecond * time.Duration(delay))
 
 }
