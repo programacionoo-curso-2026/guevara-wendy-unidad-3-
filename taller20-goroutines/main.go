@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("Hola GoRouting")
+	ShowGoroutine(1)
+}
+
+func ShowGoroutine(id int) {
+	fmt.Print("Goroutine #%d\n", id)
+
 }
