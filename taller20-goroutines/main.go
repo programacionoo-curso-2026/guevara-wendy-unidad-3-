@@ -7,9 +7,10 @@ import (
 )
 
 func main() {
-	go ShowGoroutines(1)
+	for i := 0; i < 10; i++ {
+		go ShowGoroutines(i)
+	}
 	time.Sleep(1 * time.Second)
-
 }
 
 func ShowGoroutines(id int) {
