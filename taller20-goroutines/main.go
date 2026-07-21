@@ -1,9 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
-	ShowGoroutine(1)
+	go ShowGoroutine(1)
+	time.Sleep(10 * time.Second)
+
 }
 
 func ShowGoroutine(id int) {
