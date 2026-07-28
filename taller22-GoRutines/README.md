@@ -234,8 +234,7 @@ Todas las operaciones completadas. Finalizando
 ## Iteración 5
 Ya se presentan evidencias en las anteriores iteraciones.
 
-## Iteración 6
-PS C:\apps\go\guevara-wendy-unidad-3-\taller22-GoRutines> go run main.go
+## Iteración 7
 Procesando orden 1 
 Actualizando orden 1 con estado: Procesando 
 Procesando orden 2 
@@ -392,3 +391,162 @@ Orden 20 pending
 ---------------------------------------
 Actualizando orden 20 con estado: Procesando 
 fatal error: all goroutines are asleep - deadlock!
+
+## Iteración 8
+Actualizando orden 1 con estado: Procesando 
+Procesando orden 1 
+Actualizando orden 2 con estado: Despachando 
+Procesando orden 2 
+Procesando orden 3 
+Procesando orden 4 
+Procesando orden 5 
+
+--- Reporte Estado de las Ordenes ---
+Orden 1 Procesando 
+Orden 2 Despachando 
+Orden 3 pending 
+Orden 4 pending 
+Orden 5 pending 
+Orden 6 pending 
+Orden 7 pending 
+Orden 8 pending 
+Orden 9 pending 
+Orden 10 pending 
+Orden 11 pending 
+Orden 12 pending 
+Orden 13 pending 
+Orden 14 pending 
+Orden 15 pending 
+Orden 16 pending 
+Orden 17 pending 
+Orden 18 pending 
+Orden 19 pending 
+Orden 20 pending 
+---------------------------------------
+Procesando orden 6 
+Actualizando orden 3 con estado: Entregado 
+Actualizando orden 4 con estado: Despachando 
+Procesando orden 7 
+Actualizando orden 5 con estado: Procesando 
+Actualizando orden 6 con estado: Despachando 
+Procesando orden 8 
+Actualizando orden 7 con estado: Despachando 
+Procesando orden 9 
+Procesando orden 10 
+
+--- Reporte Estado de las Ordenes ---
+Orden 1 Procesando 
+Orden 2 Despachando 
+Orden 3 Entregado 
+Orden 4 Despachando 
+Orden 5 Procesando 
+Orden 6 Despachando 
+Orden 7 Despachando 
+Orden 8 pending 
+Orden 9 pending 
+Orden 10 pending 
+Orden 11 pending 
+Orden 12 pending 
+Orden 13 pending 
+Orden 14 pending 
+Orden 15 pending 
+Orden 16 pending 
+Orden 17 pending 
+Orden 18 pending 
+Orden 19 pending 
+Orden 20 pending 
+---------------------------------------
+Actualizando orden 8 con estado: Despachando 
+Procesando orden 11 
+Actualizando orden 9 con estado: Entregado 
+Procesando orden 12 
+Procesando orden 13 
+Actualizando orden 10 con estado: Entregado 
+Procesando orden 14 
+Procesando orden 15 
+
+--- Reporte Estado de las Ordenes ---
+Orden 1 Procesando 
+Orden 2 Despachando 
+Orden 3 Entregado 
+Orden 4 Despachando 
+Orden 5 Procesando 
+Orden 6 Despachando 
+Orden 7 Despachando 
+Orden 8 Despachando 
+Orden 9 Entregado 
+Orden 10 Entregado 
+Orden 11 pending 
+Orden 12 pending 
+Orden 13 pending 
+Orden 14 pending 
+Orden 15 pending 
+Orden 16 pending 
+Orden 17 pending 
+Orden 18 pending 
+Orden 19 pending 
+Orden 20 pending 
+---------------------------------------
+Actualizando orden 11 con estado: Entregado 
+Procesando orden 16 
+Actualizando orden 12 con estado: Despachando 
+Procesando orden 17 
+Procesando orden 18 
+Procesando orden 19 
+Actualizando orden 13 con estado: Procesando 
+Actualizando orden 14 con estado: Entregado 
+Procesando orden 20 
+Actualizando orden 15 con estado: Entregado 
+
+--- Reporte Estado de las Ordenes ---
+Orden 1 Procesando 
+Orden 2 Despachando 
+Orden 3 Entregado 
+Orden 4 Despachando 
+Orden 5 Procesando 
+Orden 6 Despachando 
+Orden 7 Despachando 
+Orden 8 Despachando 
+Orden 9 Entregado 
+Orden 10 Entregado 
+Orden 11 Entregado 
+Orden 12 Despachando 
+Orden 13 Procesando 
+Orden 14 Entregado 
+Orden 15 Entregado 
+Orden 16 pending 
+Orden 17 pending 
+Orden 18 pending 
+Orden 19 pending 
+Orden 20 pending 
+---------------------------------------
+Actualizando orden 16 con estado: Procesando 
+Actualizando orden 17 con estado: Procesando 
+Actualizando orden 18 con estado: Entregado 
+Actualizando orden 19 con estado: Despachando 
+
+--- Reporte Estado de las Ordenes ---
+Orden 1 Procesando 
+Orden 2 Despachando 
+Orden 3 Entregado 
+Orden 4 Despachando 
+Orden 5 Procesando 
+Orden 6 Despachando 
+Orden 7 Despachando 
+Orden 8 Despachando 
+Orden 9 Entregado 
+Orden 10 Entregado 
+Orden 11 Entregado 
+Orden 12 Despachando 
+Orden 13 Procesando 
+Orden 14 Entregado 
+Orden 15 Entregado 
+Orden 16 Procesando 
+Orden 17 Procesando 
+Orden 18 Entregado 
+Orden 19 Despachando 
+Orden 20 pending 
+---------------------------------------
+Actualizando orden 20 con estado: Entregado 
+Número de ordenes: 20 
+Todas las operaciones completadas. Finalizando 
