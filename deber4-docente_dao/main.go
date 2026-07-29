@@ -3,7 +3,6 @@ package main
 import (
 	"CompetenciasDocentes/dao"
 	"CompetenciasDocentes/dataaccess"
-
 	"log"
 )
 
