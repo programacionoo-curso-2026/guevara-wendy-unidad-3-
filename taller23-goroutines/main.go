@@ -41,7 +41,6 @@ func main() {
 	fmt.Print("Todas las operaciones completadas. Saliendo\n")
 	fmt.Printf("Total Actualizaciones %d\n", totalUpdates)
 }
-
 func updateOrderStatus(order *Order) {
 	order.mu.Lock()
 	time.Sleep(time.Duration(rand.Intn(500)) * time.Millisecond)
@@ -60,4 +59,17 @@ func updateOrderStatus(order *Order) {
 	time.Sleep(5 * time.Millisecond)
 	totalUpdates = currentUpdates + 1
 
+}
+
+func generateOrders(n int) []*Order {
+	orders := make([]*Order, n)
+
+	for i := 0; i < n; i++ {
+		orders[i] = &Order{
+			ID:     i + 1,
+			Status: "Pendiente",
+		}
+	}
+
+	return orders
 }
